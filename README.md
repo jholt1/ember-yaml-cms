@@ -1,11 +1,11 @@
-# Ember-markdown-cms
+# Ember-yaml-cms
 
 This README outlines the details of collaborating on this Ember addon.
 
 ## Installation
 
 * `git clone <repository-url>` this repository
-* `cd ember-markdown-cms`
+* `cd ember-yaml-cms`
 * `npm install`
 * `bower install`
 

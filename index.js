@@ -1,6 +1,9 @@
 /* jshint node: true */
 'use strict';
 
+var treeForPublicHook = require('./lib/tree-for-public');
+
 module.exports = {
-  name: 'ember-markdown-cms'
+  name: 'ember-yaml-cms',
+  treeForPublic: treeForPublicHook
 };
