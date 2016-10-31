@@ -3,11 +3,17 @@
 
 var treeForPublicHook = require('./lib/tree-for-public');
 
-included: function(app) {
-  app.include('vendor/my-component.css');
-}
-
 module.exports = {
   name: 'ember-yaml-cms',
-  treeForPublic: treeForPublicHook
+  treeForPublic: treeForPublicHook,
+
+  treeForVendor: function() {
+    var np = this.project.nodeModulesPath;
+    return np + '/ember-cli-my-addon/vendor';
+  },
+
+  included: function(app) {
+    app.include('vendor/my-component.css');
+  }
+
 };
