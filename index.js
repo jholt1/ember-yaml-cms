@@ -9,7 +9,7 @@ module.exports = {
 
   treeForVendor: function() {
     var np = this.project.nodeModulesPath;
-    return np + '/ember-cli-my-addon/vendor';
+    return np + '/ember-yaml-cms/vendor';
   },
 
   included: function(app) {
