@@ -2,26 +2,41 @@
 
 This README outlines the details of collaborating on this Ember addon.
 
-## Installation
+## Install
 
-* `git clone <repository-url>` this repository
-* `cd ember-yaml-cms`
-* `npm install`
-* `bower install`
+```bash
+$ npm install --save ember-yaml-cms
+```
 
-## Running
+## TODO
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+  - [ ] Automatically create `cms` folder
+  - [ ] Add tests
 
-## Running Tests
+## How to use
 
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
+- Create a a folder called `cms`
+- Create yaml files inside `cms`
 
-## Building
+### Example structure
 
-* `ember build`
+```
+├─┬ cms
+  ├─┬ index
+  | ├── foo.yaml
+  | └── bar.yaml
+  └─┬ legal
+    ├── terms.yaml
+    ├── privacy.yaml
+    └─┬ business-terms
+      ├── cookies.yaml
+      └── contract.yaml
+```
 
-For more information on using ember-cli, visit [http://ember-cli.com/](http://ember-cli.com/).
+### Converted structure
+
+```
+├─┬ assets
+  └─┬ cms
+    └── content.json
+```
