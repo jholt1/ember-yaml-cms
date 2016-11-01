@@ -1,6 +1,4 @@
-# Ember-yaml-cms
-
-This README outlines the details of collaborating on this Ember addon.
+# ember-yaml-cms
 
 ## Install
 
@@ -15,7 +13,7 @@ $ npm install --save ember-yaml-cms
 
 ## How to use
 
-- Create a a folder called `cms`
+- Create a folder called `cms`
 - Create yaml files inside `cms`
 
 ### Example structure
