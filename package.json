@@ -1,6 +1,6 @@
 {
   "name": "ember-yaml-cms",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Ember addon to turn YAML files into a single JSON file.",
   "directories": {
     "doc": "doc",
