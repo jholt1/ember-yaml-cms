@@ -6,11 +6,6 @@
 $ npm install --save ember-yaml-cms
 ```
 
-## TODO
-
-  - [ ] Automatically create `cms` folder
-  - [ ] Add tests
-
 ## How to use
 
 - Create a folder called `cms`
@@ -37,4 +32,16 @@ $ npm install --save ember-yaml-cms
 ├─┬ assets
   └─┬ cms
     └── content.json
+```
+
+### Options
+
+In your `ember-cli-build` you can add the option to name the folder
+
+```
+let app = new EmberAddon(defaults, {
+  'ember-yaml-cms': {
+    folder: 'cms-data'
+  }
+});
 ```
