@@ -1,5 +1,7 @@
 # ember-yaml-cms
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jholt1/ember-yaml-cms.svg)](https://greenkeeper.io/)
+
 ## Install
 
 ```bash
